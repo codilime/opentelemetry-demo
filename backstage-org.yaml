@@ -3,7 +3,7 @@ kind: System
 metadata:
   name: opentelemetry-demo
   annotations:
-    backstage.io/techdocs-ref: url:https://opentelemetry.io/docs/demo/
+    backstage.io/techdocs-ref: url:https://github.com/codilime/opentelemetry.io/tree/main/content/en/docs/demo/services/_index
   description: OTEL demo app
 spec:
   owner: user:guest
