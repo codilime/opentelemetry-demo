@@ -4,7 +4,7 @@ metadata:
   name: opentelemetry-demo
   description: A collection of all Backstage example entities, except users, groups, and templates
   annotations:
-    github.com/project-slug: jmichalak9/opentelemetry-demo
+    github.com/project-slug: codilime/opentelemetry-demo
 spec:
   targets:
     - ./backstage-org.yaml
