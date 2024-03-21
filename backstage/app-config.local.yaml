@@ -1,0 +1,28 @@
+# Backstage override configuration for your local development environment
+backend:
+  database:
+    connection:
+      host: localhost
+      # Default postgresql port is 5432; this might be different for your installation
+      port: 5432
+      user: postgres
+      # Replace the password below with your postgresql password:
+      password: secret
+
+auth:
+  # see https://backstage.io/docs/auth/ to learn about auth providers
+  environment: development
+  providers:
+    github:
+      development:
+        clientId: ${GITHUB_CLIENT_ID}
+        clientSecret: ${GITHUB_CLIENT_SECRET}
+    gitlab:
+      development:
+        clientId: ${AUTH_GITLAB_CLIENT_ID}
+        clientSecret: ${AUTH_GITLAB_CLIENT_SECRET}
+
+integrations:
+  github:
+    - host: github.com
+      token: ${GITHUB_TOKEN} # this should be the token from GitHub
