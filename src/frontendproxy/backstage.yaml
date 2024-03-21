@@ -5,7 +5,7 @@ metadata:
   name: frontendproxy
   description: This service acts as a reverse proxy for the various user-facing web interfaces.
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/codilime/opentelemetry.io/tree/main/content/en/docs/demo/services/frontendproxy
+    backstage.io/techdocs-ref: url:https://github.com/codilime/opentelemetry.io/tree/main/content/en/docs/demo/services/frontend-proxy
     github.com/project-slug: codilime/opentelemetry-demo
 spec:
   type: service
